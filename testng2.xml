@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pragra2">
+    <parameter name="url" value="https://zoom.us"></parameter>
+
+    <test parallel="methods" name="sample">
+        <classes>
+            <class name="HomeTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
